@@ -34,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
           margin: EdgeInsets.all(7.0),
           child: CircleAvatar(
             backgroundColor: Colors.amber,
-            backgroundImage: NetworkImage("https://media.licdn.com/dms/image/C5103AQET1B1xMkH-0A/profile-displayphoto-shrink_200_200/0?e=1558569600&v=beta&t=it8kcTi69M0Z4338kFVPpi4m3kvElazk8sINm4jHWfY"),
+            backgroundImage: NetworkImage("https://images.pexels.com/photos/6176600/pexels-photo-6176600.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"),
           ),
         ),
         
@@ -121,7 +121,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   SizedBox(
               height: 5,
             ),
-             Image.asset(tweetData[i].thumbnilUrl),
+             Image.network(tweetData[i].thumbnilUrl),
              SizedBox(
               height: 10,
             ),
